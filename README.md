@@ -1,74 +1,76 @@
-**Русский** | [English](README_EN.md)
+# Offline v70
 
----
+Offline server for **Brawl Stars v70 on iOS**. It runs inside the game through Frida, so there is no separate server process or IP address to configure.
 
-# BSVS — Brawl Stars China v69
+![Offline v70 lobby](docs/images/offline-v70-lobby.webp)
 
-**Первый open-source релиз BSVS для китайской версии Brawl Stars (CN v69)!**
+## What is included
 
-![Brawl Stars CN](https://img.shields.io/badge/Brawl_Stars_CN-v69-F5B800?style=flat-square)
-![Language](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Work_in_Progress-6f42c1?style=flat-square)
-![Source](https://img.shields.io/badge/Source-Available-brightgreen?style=flat-square)
+- Local accounts and saved profiles.
+- Brawlers, skins, profile icons, and name colors from the client catalog.
+- Offline battles with bots, event rotation, Knockout, and Hot Zone.
+- Brawl Pass data and local battle results.
 
-> **BSVS CN v69** — неофициальный приватный сервер для китайской версии Brawl Stars. Это первый открытый релиз проекта: исходный код доступен всем, кто хочет изучать устройство сервера, вносить улучшения и развивать его вместе с сообществом.
+The project supports one specific v70 iOS build. The agent checks the game build before installing hooks. **Android is not available yet.** No APK or game assets are included.
 
-## Скриншот
+## Requirements
 
-<p align="center">
-  <img src="assets/screenshot.png" alt="Главное меню Brawl Stars CN v69 на сервере BSVS" width="900">
-</p>
+- A compatible Brawl Stars v70 iOS client.
+- Frida Server 17.x on the device.
+- Node.js and Python 3 on the computer.
+- A USB connection to the device.
 
-*Главный экран клиента Brawl Stars CN v69, подключённого к BSVS.*
+## Run
 
-## О проекте
+1. Download this repository and open a terminal in its root directory.
+2. Install dependencies:
 
-BSVS создаётся для энтузиастов **Brawl Stars China**, которым интересно исследовать серверную часть игры и экспериментировать с собственными сборками. Проект написан на **Python** и ориентирован на совместимость с клиентом **CN v69**.
-
-В текущем релизе можно подключить клиент к серверу, войти в профиль и открыть главное меню. Код проекта открыт для изучения, собственных дополнений и совместной разработки.
-
-Это **первый open-source релиз BSVS CN v69**. Мы будем рады участникам, которые помогут сделать проект лучше!
-
-## Клиенты (iOS/ANDROID)
-
-[IPA (Google Drive)](https://drive.google.com/file/d/1eAK-HBi5Qo3dOUWGPS9Pprc7yHTWCdlU/view?usp=sharing)
-[APK (Google Drive)](https://drive.google.com/file/d/1eK-FdlkO7AlOh0FOuSx6B6dGLCsup5gk/view?usp=sharing)
-
-## Как запустить
-
-**Требуется:** Python 3.10+ и совместимый клиент Brawl Stars CN v69.
-
-1. Скачайте исходники проекта.
-2. Откройте терминал в папке с файлом `Core.py`.
-3. Запустите сервер:
-
-   ```bash
-   python Core.py
+   ```sh
+   npm ci
+   python3 -m pip install -r requirements.txt
    ```
 
-4. Подключите совместимый клиент к IP вашего сервера и TCP-порту `9339`.
+3. Build the agent:
 
-Способ настройки подключения зависит от используемой сборки клиента.
+   ```sh
+   npm run build
+   ```
 
-## Будущее проекта
+4. Start Frida Server on the device and find the game's bundle ID. If needed, install `frida-tools` to use `frida-ps`:
 
-Это только начало. Мы планируем совершенствовать совместимость с CN v69, развивать возможности сервера и принимать улучшения от сообщества.
+   ```sh
+   frida-ps -Uai
+   ```
 
-## Open source и сообщество
+5. Start the game with the offline agent:
 
-**BSVS CN v69 открыт для разработчиков и энтузиастов!**
+   ```sh
+   python3 scripts/run.py --bundle-id YOUR_BUNDLE_ID
+   ```
 
-- Поставьте звезду репозиторию, если проект вам интересен.
-- Сообщайте о проблемах через **Issues**.
-- Предлагайте улучшения и отправляйте **Pull Requests**.
-- Делитесь идеями и помогайте развивать проект.
+Wait for `[offline-v70] Ready` in the terminal. The launcher closes the game when you press Ctrl+C.
 
-**Лицензия:** перед распространением исходников укажите лицензию в файле `LICENSE` и убедитесь, что у вас есть права на публикацию включённых материалов.
+`script.js` is included in the repository for people who only want to run the current build. If you change the source, run `npm run build` again.
 
-## ⚠️ Disclaimer
+## Configuration
 
-BSVS — независимый неофициальный фанатский проект. Он не связан с Supercell или Tencent. Название Brawl Stars и связанные игровые материалы принадлежат их правообладателям.
+`config/config.json` contains the initial offline profile. The game stores account changes in its own Documents directory. Local profiles and device files are excluded from this repository.
 
----
+Event rotation can be changed in `config/events.json`. The default response delay is 100 ms.
 
-<p align="center"><strong>BSVS CN v69 — первый открытый релиз. Развиваем вместе!</strong></p>
+## Development
+
+```sh
+npm run check
+npm run format:check
+npm test
+npm run build
+```
+
+Source attribution and license details are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Links
+
+- Telegram channel: [bsvschannel](https://t.me/bsvschannel)
+- Developer: [sprkdv](https://t.me/niobid)
+- Android download: coming later

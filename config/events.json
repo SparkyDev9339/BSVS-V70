@@ -1,0 +1,13 @@
+{
+  "rotationHours": 24,
+  "refreshHourUtc": 9,
+  "slots": [
+    {"slot": 1, "modes": ["GemGrab"]},
+    {"slot": 2, "modes": ["Showdown"]},
+    {"slot": 3, "modes": ["DuoShowdown"]},
+    {"slot": 4, "modes": ["BrawlBall"]},
+    {"slot": 5, "modes": ["Heist", "Bounty"]},
+    {"slot": 6, "modes": ["KingOfHill"]},
+    {"slot": 7, "modes": ["Knockout"]}
+  ]
+}

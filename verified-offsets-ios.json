@@ -1,0 +1,173 @@
+{
+  "version": 70,
+  "platform": "iOS ARM64",
+  "imageUuid": "aa6562966bec475e83dd93f53a143049",
+  "imageSha256": "8537bea717182189fe8bbb29760250cd071e34ecc69c79c19b4010ac47ff9cea",
+  "verification": "Static IDA signatures; native iPhone Knockout rounds exercised separately (see docs/port-v70.md).",
+  "functions": {
+    "ServerConnectionUpdate": {
+      "rva": "0x874f58",
+      "bytes16": "ff0306d1e923126dfc6f13a9f85f14a9"
+    },
+    "MessageManagerSend": {
+      "rva": "0x86a168",
+      "bytes16": "ff4301d1f65702a9f44f03a9fd7b04a9"
+    },
+    "MessageManagerUpdate": {
+      "rva": "0x870c98",
+      "bytes16": "ff4301d1e923016df65702a9f44f03a9"
+    },
+    "MessageManagerReceiveOwned": {
+      "rva": "0x871b38",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30301aa"
+    },
+    "CreateMessageByType": {
+      "rva": "0xb9f2e4",
+      "bytes16": "ffc300d1f44f01a9fd7b02a9fd830091"
+    },
+    "ByteStreamSetBuffer": {
+      "rva": "0xd36608",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30302aa"
+    },
+    "OperatorNewArray": {
+      "rva": "0xec76b0",
+      "bytes16": "d00f00b010a241f900021fd6d00f00b0"
+    },
+    "OwnHomeDataDecode": {
+      "rva": "0xbd1b00",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30300aa"
+    },
+    "StartGame": {
+      "rva": "0x98c2a4",
+      "bytes16": "ff4302d1fc6f03a9fa6704a9f85f05a9"
+    },
+    "GetTable": {
+      "rva": "0xacc824",
+      "bytes16": "c83e00d008e10d9100d960f8c0035fd6"
+    },
+    "TableCount": {
+      "rva": "0xacafa8",
+      "bytes16": "001440b9c0035fd6ff4301d1f65702a9"
+    },
+    "TableItem": {
+      "rva": "0xacb1a8",
+      "bytes16": "080440f900d961f8c0035fd6081440b9"
+    },
+    "DataName": {
+      "rva": "0xac75d8",
+      "bytes16": "000440f987b10914f44fbea9fd7b01a9"
+    },
+    "RowString": {
+      "rva": "0xd33aac",
+      "bytes16": "f657bda9f44f01a9fd7b02a9fd830091"
+    },
+    "KnockoutConstructor": {
+      "rva": "0xbefbfc",
+      "bytes16": "eefcff17ff4301d1f85f01a9f65702a9"
+    },
+    "KnockoutDestructor": {
+      "rva": "0xbefc00",
+      "bytes16": "ff4301d1f85f01a9f65702a9f44f03a9"
+    },
+    "KnockoutControlStart": {
+      "rva": "0xbf3be8",
+      "bytes16": "08a440b91f21007181000054083400d0"
+    },
+    "KnockoutStep": {
+      "rva": "0xbf07e0",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30300aa"
+    },
+    "KnockoutIsGameOver": {
+      "rva": "0xbf32e4",
+      "bytes16": "f44fbea9fd7b01a9fd43009108844239"
+    },
+    "KnockoutSpawnCharacter": {
+      "rva": "0xbf1e6c",
+      "bytes16": "ff4302d1fc6f03a9fa6704a9f85f05a9"
+    },
+    "KnockoutClearObjects": {
+      "rva": "0xb51c94",
+      "bytes16": "f85fbca9f65701a9f44f02a9fd7b03a9"
+    },
+    "KnockoutFindObject": {
+      "rva": "0xb53130",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30300aa"
+    },
+    "KnockoutResetMap": {
+      "rva": "0xbf6b2c",
+      "bytes16": "f85fbca9f65701a9f44f02a9fd7b03a9"
+    },
+    "KnockoutArrangePlayers": {
+      "rva": "0xbf6bc4",
+      "bytes16": "ff4303d1e923066dfc6f07a9fa6708a9"
+    },
+    "KnockoutTickObjects": {
+      "rva": "0xb51da4",
+      "bytes16": "ff0301d1f65701a9f44f02a9fd7b03a9"
+    },
+    "KnockoutAppendPointer": {
+      "rva": "0x5092b8",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30300aa"
+    },
+    "KnockoutUpdatePositions": {
+      "rva": "0xbf0f1c",
+      "bytes16": "fc6fbaa9fa6701a9f85f02a9f65703a9"
+    },
+    "BattleEndDecode": {
+      "rva": "0xbb54f4",
+      "bytes16": "ff0301d1f65701a9f44f02a9fd7b03a9"
+    },
+    "BattleResultPlayerDecode": {
+      "rva": "0xbb8fb8",
+      "bytes16": "ff0301d1f65701a9f44f02a9fd7b03a9"
+    },
+    "CharacterCalculateMovement": {
+      "rva": "0xb3bb54",
+      "bytes16": "ffc301d1fc6f01a9fa6702a9f85f03a9"
+    },
+    "BotTick": {
+      "rva": "0xb8032c",
+      "bytes16": "fc6fbaa9fa6701a9f85f02a9f65703a9"
+    },
+    "BattleAddPlayer": {
+      "rva": "0xbf11fc",
+      "bytes16": "ff4304d1fc6f0ba9fa670ca9f85f0da9"
+    },
+    "BattleResetHeroStats": {
+      "rva": "0xbfd61c",
+      "bytes16": "1f0000b91f4c00b900e4004f0080803c"
+    },
+    "StringSetUtf8": {
+      "rva": "0xe762bc",
+      "bytes16": "f657bda9f44f01a9fd7b02a9fd830091"
+    },
+    "HotZone_createArea": {
+      "rva": "0xb4e0f0",
+      "bytes16": "f44fbea9fd7b01a9fd430091f30300aa"
+    },
+    "HotZone_setPosition": {
+      "rva": "0xb598ac",
+      "bytes16": "01080729034000b909b040b9c900f837"
+    },
+    "HotZone_addObject": {
+      "rva": "0xb52c40",
+      "bytes16": "ff8301d1f65703a9f44f04a9fd7b05a9"
+    },
+    "HotZone_triggerArea": {
+      "rva": "0xb1cee0",
+      "bytes16": "ff4304d1fc6f0ba9fa670ca9f85f0da9"
+    },
+    "HotZone_areaRadius": {
+      "rva": "0xb1f098",
+      "bytes16": "f657bda9f44f01a9fd7b02a9fd830091"
+    },
+    "HotZone_battleTicks": {
+      "rva": "0xc26f00",
+      "bytes16": "683200f0088103910801403988000036"
+    },
+    "HotZone_hasModifier": {
+      "rva": "0xbf1b7c",
+      "bytes16": "095c41b93f0500710b01005408b440f9"
+    }
+  }
+}

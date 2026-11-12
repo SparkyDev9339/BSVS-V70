@@ -1,1 +1,1 @@
-cryptography>=43.0.3
+frida>=17,<18

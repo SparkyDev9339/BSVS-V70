@@ -1,0 +1,701 @@
+{
+  "id": [
+    0,
+    1
+  ],
+  "name": "Offline-v70",
+  "registered": false,
+  "brawlPass": {
+    "enabled": true,
+    "season": 55,
+    "premium": true,
+    "points": 0
+  },
+  "country": "RU",
+  "creator": "Offline-v70",
+  "thumbnail": 0,
+  "nameColor": 0,
+  "favouriteBrawler": 0,
+  "selectedSkins": [],
+  "skinRandomizer": [],
+  "currentRandomSkins": [],
+  "selectedBrawlers": [
+    0,
+    1,
+    2
+  ],
+  "gems": 99999,
+  "coins": 999999,
+  "bling": 99999,
+  "brawlers": [
+    {
+      "id": 0,
+      "card": 0,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 1,
+      "card": 4,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 2,
+      "card": 8,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 3,
+      "card": 12,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 4,
+      "card": 16,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 5,
+      "card": 20,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 6,
+      "card": 24,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 7,
+      "card": 28,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 8,
+      "card": 32,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 9,
+      "card": 36,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 10,
+      "card": 40,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 11,
+      "card": 44,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 12,
+      "card": 48,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 13,
+      "card": 52,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 14,
+      "card": 56,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 15,
+      "card": 60,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 16,
+      "card": 64,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 17,
+      "card": 68,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 18,
+      "card": 72,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 19,
+      "card": 95,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 20,
+      "card": 100,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 21,
+      "card": 105,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 22,
+      "card": 110,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 23,
+      "card": 115,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 24,
+      "card": 120,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 25,
+      "card": 125,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 26,
+      "card": 130,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 27,
+      "card": 177,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 28,
+      "card": 182,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 29,
+      "card": 188,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 30,
+      "card": 194,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 31,
+      "card": 200,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 32,
+      "card": 206,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 34,
+      "card": 218,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 35,
+      "card": 224,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 36,
+      "card": 230,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 37,
+      "card": 236,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 38,
+      "card": 279,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 39,
+      "card": 296,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 40,
+      "card": 303,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 41,
+      "card": 320,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 42,
+      "card": 327,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 43,
+      "card": 334,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 44,
+      "card": 341,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 45,
+      "card": 358,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 46,
+      "card": 365,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 47,
+      "card": 372,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 48,
+      "card": 379,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 49,
+      "card": 386,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 50,
+      "card": 393,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 51,
+      "card": 410,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 52,
+      "card": 417,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 53,
+      "card": 427,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 54,
+      "card": 434,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 56,
+      "card": 448,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 57,
+      "card": 466,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 58,
+      "card": 474,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 59,
+      "card": 491,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 60,
+      "card": 499,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 61,
+      "card": 507,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 62,
+      "card": 515,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 63,
+      "card": 523,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 64,
+      "card": 531,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 65,
+      "card": 539,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 66,
+      "card": 547,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 67,
+      "card": 557,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 68,
+      "card": 565,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 69,
+      "card": 573,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 70,
+      "card": 581,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 71,
+      "card": 589,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 72,
+      "card": 597,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 73,
+      "card": 605,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 74,
+      "card": 619,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 75,
+      "card": 633,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 76,
+      "card": 642,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 77,
+      "card": 655,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 78,
+      "card": 663,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 79,
+      "card": 671,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 80,
+      "card": 730,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 81,
+      "card": 748,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 82,
+      "card": 760,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 83,
+      "card": 768,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 84,
+      "card": 800,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 85,
+      "card": 811,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 86,
+      "card": 828,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 87,
+      "card": 844,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 89,
+      "card": 871,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 90,
+      "card": 879,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 91,
+      "card": 901,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 92,
+      "card": 911,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 93,
+      "card": 925,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 94,
+      "card": 934,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 95,
+      "card": 985,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 96,
+      "card": 994,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 97,
+      "card": 1035,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 98,
+      "card": 1043,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 99,
+      "card": 1056,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 100,
+      "card": 1064,
+      "power": 11,
+      "trophies": 0
+    },
+    {
+      "id": 101,
+      "power": 11,
+      "trophies": 0,
+      "card": 1177
+    },
+    {
+      "id": 102,
+      "power": 11,
+      "trophies": 0,
+      "card": 1185
+    },
+    {
+      "id": 103,
+      "power": 11,
+      "trophies": 0,
+      "card": 1212
+    },
+    {
+      "id": 104,
+      "power": 11,
+      "trophies": 0,
+      "card": 1241
+    },
+    {
+      "id": 105,
+      "power": 11,
+      "trophies": 0,
+      "card": 1249
+    },
+    {
+      "id": 106,
+      "power": 11,
+      "trophies": 0,
+      "card": 1275
+    },
+    {
+      "id": 107,
+      "power": 11,
+      "trophies": 0,
+      "card": 1291
+    },
+    {
+      "id": 108,
+      "power": 11,
+      "trophies": 0,
+      "card": 1314
+    },
+    {
+      "id": 109,
+      "power": 11,
+      "trophies": 0,
+      "card": 1438
+    },
+    {
+      "id": 110,
+      "power": 11,
+      "trophies": 0,
+      "card": 1446
+    },
+    {
+      "id": 111,
+      "power": 11,
+      "trophies": 0,
+      "card": 1492
+    },
+    {
+      "id": 112,
+      "power": 11,
+      "trophies": 0,
+      "card": 1501
+    },
+    {
+      "id": 113,
+      "power": 11,
+      "trophies": 0,
+      "card": 1509
+    }
+  ],
+  "verbose": true,
+  "autoUnlockBrawlers": true,
+  "sendDelayMs": 100
+}
